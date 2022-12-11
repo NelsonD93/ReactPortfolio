@@ -1,6 +1,6 @@
 import React from 'react';
 // import '../../styles/Mystyles.css';
-import Project from '../structure/Project'
+import Project from '../structure/project'
 import image from '../../images/weatherApp.png';
 import image2 from '../../images/teamGenerator.png';
 import image3 from '../../images/scheduler.jpeg';

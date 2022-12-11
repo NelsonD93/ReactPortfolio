@@ -6,8 +6,8 @@ function Contact() {
     const formSubmit = (() => {
 
     })
-    const [email, setEmail] = useState('');
-    const [errorMessage, setErrorMessage] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [errorMessage, setErrorMessage] = useState('');
 
     return (
         <form>
@@ -25,7 +25,7 @@ function Contact() {
             <div className="form-group m-3">
                 <label htmlFor="email">Email address*</label>
                 <input
-                    value={email}
+                    value=''
                     className="form-control"
                     name="email"
                     //   onChange=
@@ -36,11 +36,11 @@ function Contact() {
 
                 </input></div>
 
-                {errorMessage && (
+                {/* {errorMessage && (
         <div>
           <p className="error-text text-danger">{errorMessage}</p>
-        </div>
-      )}
+        </div> */}
+      {/* )} */}
 
       <div className="form-group m-3">
         <label htmlFor="message">Message*</label>
