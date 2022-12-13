@@ -13,14 +13,14 @@ function Navbar({setPage}) {
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" onClick={()=>{setPage("Portfolio")}}>Features</a>
+          <a className="nav-link" onClick={()=>{setPage("Portfolio")}}>Portfolio</a>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a className="nav-link" href="#">Pricing</a>
         </li>
         <li className="nav-item">
           <a className="nav-link disabled">Disabled</a>
-        </li>
+        </li> */}
       </ul>
     </div>
   </div>
